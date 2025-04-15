@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+body > header {
+    background: #8625d2;
+    color: white;
+    font-size: 24px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center ;
+}
+
+body > main .page-title {
+    font-size: 40px;
+    padding: 50px 0;
+    text-align: center;
+}
+
+body > main .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table thead tr {
+    border-bottom: 3px solid #eee;
+}
+
+table thead tr th {
+    text-align: left;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    color: #666;
+}
